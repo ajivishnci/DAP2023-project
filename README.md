@@ -8,29 +8,36 @@ This project is set up using Docker and Docker-compose. Docker manages the appli
 
 # Steps to Run the Project
 
-1. Navigate to the project folder location and open a Windows command prompt.
+1. git clone this repo `DAP2023-project` from github
+
+2. Navigate to the project folder location and open a Windows command prompt.
 
     ```bash
-    cd path/to/project/folder
+    cd path/to/project/DAP2023-project
     ```
 
-2. Execute the `docker` script.
+3. Execute the `docker` script.
 
     ```bash
     docker-compose up
     ```
 
-3. Check if the all the container images is up and running, Mongo DB`, `JupyterLab` and `PostgreSQL`
+4. Check if the all the container images is up and running, Mongo DB`, `JupyterLab` and `PostgreSQL`
 
-4. Open the `Jupyter notebook` link which you would see in the command line `ctrl + click`
+5. Open the `Jupyter notebook` link which you would see in the command line `ctrl + click`
+![Alt text](image.png)
     ```bash
-    https://127.0.0.1
+    http://127.0.0.1:8888/lab?token=c24fadfe0d5518b7094199f6a9cad62ccdc5194cabd239aa
     ```
-5. Upload the notebooks to Jupyter Lab in the `notebooks` source folder.
+    you will find this cmd, please for this kind of link
+    Copy and paste into your browser
+6. Upload all the notebooks to Jupyter Lab in the `notebooks`  folder from our source code.
+    ```bash
+      First go into `/work/` folder in browser and then upload
+    ```
+7. Run the Python notebooks.
 
-6. Run the Python notebooks.
-
-7. Execute the `docker` script when done.
+8. Execute the `docker` script when done, to remove the container from desktop
 
     ```bash
     docker-compose down
