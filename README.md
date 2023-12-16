@@ -6,6 +6,11 @@ This project is set up using Docker and Docker-compose. Docker manages the appli
 - Docker needs to be installed on the machine.
 - Python should be installed.
 
+## Contributors Here are some of the contributors to this project: 
+1. [Aji Vishwambharan](https://github.com/ajivishnci)
+2. [Aniket Ghadge](https://github.com/AniketLL)
+3. [Ian Dias](https://github.com/Ian3000Dias)
+
 # Steps to Run the Project
 
 1. git clone this repo `DAP2023-project` from github
