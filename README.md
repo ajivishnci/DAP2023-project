@@ -27,7 +27,7 @@ This project is set up using Docker and Docker-compose. Docker manages the appli
     docker-compose up
     ```
 
-4. Check if the all the container images is up and running, Mongo DB`, `JupyterLab` and `PostgreSQL`
+4. Check if the all the container images is up and running, `Mongo DB`, `JupyterLab` and `PostgreSQL`
 
 5. Open the `Jupyter notebook` link which you would see in the command line `ctrl + click`
 ![Alt text](image.png)
@@ -61,5 +61,13 @@ docker restart my_postgresql
 docker stop my_postgresql
 docker rm my_postgresql
 docker volume ls
-docker volume rm project_postgresql_data
+docker volume rm DAP2023-project_postgresql_data
 docker-compose up -d
+
+docker restart my_mongodb
+docker stop my_mongodb
+docker rm my_mongodb
+docker volume ls
+docker volume rm DAP2023-project_mongodb_data
+docker-compose up -d
+```
