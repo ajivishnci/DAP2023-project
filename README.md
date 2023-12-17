@@ -13,7 +13,7 @@ This project is set up using Docker and Docker-compose. Docker manages the appli
 
 # Steps to Run the Project
 
-1. git clone this repo `DAP2023-project` from github
+1. git clone this repo [DAP2023-project](https://github.com/ajivishnci/DAP2023-project.git) from github
 
 2. Navigate to the project folder location and open a Windows command prompt.
 
